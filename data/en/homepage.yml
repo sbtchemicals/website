@@ -1,0 +1,122 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Water proof your buildings and stay out of messiness"
+      content : "messy water leaks from ceiling, side walls, over head tanks, soil pipes, under ground sump??"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact us now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Avoid Rusting and early witherage"
+      content : "does it feel like concrete will fall down on your head from rusting rods??"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact us now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Build for safety and durability"
+      content : "Do you always feel unsafe and find your money just going away in repairs??"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact us now"
+        link : "contact"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Bostik products"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "a b c"
+
+    # feature item loop
+    - name : "Concare Products"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Concare products save your TMT rods from rusting"
+
+    # feature item loop
+    - name : "Fosrac"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Fosrac products are good for water proofing"
+
+    # feature item loop
+    - name : "Ramco"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Ramco cements, adhesives.."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About Star Build Tech"
+  image : "images/about/about-us.jpg"
+  content : "we are long timers in water proofing"
+
+
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Care for your building"
+  title : "Click for all brands, quality, building chemicals and services "
+  button:
+    enable : true
+    label : "Contact Us Now "
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "We wanted to build 2400 sq. ft. house.  We used the consultancy of Star Build Tech.  We have peace of mind"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=star"
+
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "Sites Fixed"
+      count : "60"
+
+    # funfact item loop
+    - name : "Waterproofing done"
+      count : "520"
+
+    # funfact item loop
+    - name : "Summer Coat Sites"
+      count : "258"
+
+    # funfact item loop
+    - name : "Renovations"
+      count : "20"
+
+# funfact is for about page
